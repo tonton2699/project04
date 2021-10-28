@@ -102,6 +102,9 @@
     .services{
         background-color:#F6F6F6;
     }
+    .services-inf{
+        padding:0 !important;
+    }
     .text-services{
         text-align: center;
         line-height: 3;
@@ -125,5 +128,65 @@
         font-size:20px;
         line-height: 150%;
     }
+
+    .house{
+        padding-top: 4%;
+        padding-bottom:3%;
+    }
+    .house div {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .house-inf{
+        text-align: center;
+        line-height: 200%;
+    }
+    .house-inf h2{
+        font-size:250%; 
+        font-weight: bold;
+    }
+    .house-inf p{
+        font-size:20px;
+        line-height: 150%;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        line-height: 200%;
+
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:40px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+        font-size:150%;
+    }
+    .ft-menu ul{
+        padding: 0 !important;
+        text-decoration: none !important;
+    }
+    .ft-menu ul li{
+        line-height: 150%;
+        font-size:18px;
+        text-decoration: none !important;
+
+    }
+    .ft-menu ul li a{
+        text-decoration: none !important;
+        color:whitesmoke;
+    }
+
 
 }
