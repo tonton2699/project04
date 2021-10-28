@@ -11,23 +11,31 @@
         display:fixed !important;
     }
     header nav ul{
-        font-size:20px;
-        background-color:#fff;
-        margin:1%;
+        font-size:25px;
+        background-color: #fff;
+        margin:0.5%;
         border-bottom: none !important;
+        font-weight: 600;
         
     }
     header nav ul li:first-of-type{
         font-weight: bold;
-        font-size:25px;
+        font-size:30px;
+        border:none !important;
+
+    }
+    .nav li a{
+        padding-bottom:0 !important;
     }
     header nav ul li{
-        padding:2%;
+        padding:0.5%;
         cursor: pointer;
     }
     header nav ul li a{
         color:black !important;
+
     }
+
     .banner{
         background: url(../IMG/banner1.jpg) no-repeat center;
         color:white;
