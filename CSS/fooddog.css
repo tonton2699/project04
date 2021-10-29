@@ -1,0 +1,192 @@
+[class*="col-"]{
+    width: 100%;
+    padding: 0;
+}body{
+    padding: 0;
+    margin:0;
+    font-family: 'Oswald', sans-serif !important;
+}
+@media only screen and (min-width:992px){
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:22px;
+        background-color: #fff;
+        margin:0.5%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:30px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+    }
+    header nav ul li a{
+        color:black !important;
+
+    }
+    .nav-bar-search{
+        background-color:#43c0e4;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .nav-left{
+        margin-bottom:1%;
+        margin-top:1%;
+    }
+    .nav-left button{
+        background:transparent !important;
+        margin:3%;
+        color:white;
+        border:none;
+        font-size:18px;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .dropdown-menu{
+
+        text-align: center;
+    }
+    .dropdown-item{
+        font-size:15px;
+        font-weight: 600;
+        display:flex;
+        padding:4%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .nav-middle{
+        padding:0.5%;
+        padding-top:1%;
+        color:black;
+    }
+    .txt-search{
+        width: 80%;
+        border: none !important;
+        font-size:22px;
+        padding-right: 0 !important;
+        height: auto;
+    }
+    .btn-search{
+        width: 19%;
+        font-size:22px;
+        padding-left: 0 !important;
+        border:none;
+        background:#34b0dd !important;
+        color:white;
+    }
+    .down-middle{
+        width: 100%;
+        font-size:15px;
+        text-align: start !important;
+        padding-left:3% !important;
+        list-style-type: none;
+    }
+    .down-middle a{
+        color:white !important;
+    }
+    .nav-right{
+        margin-bottom:1%;
+        margin-top:1%;
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .nav-right h5{
+        font-size:18px;
+        color:white;
+    }
+    .left-main{
+        padding-left: 0 !important;
+        padding-right:0 !important;
+        border-right: 1px solid #999999;
+    }
+    .left-main h3{
+        background-color:#34b0dd;
+        color:white;
+        padding:4%;
+    }
+    .left-main .col-lg-12{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+    .form-check{
+        padding:2%;
+        font-size:15px
+    }
+    .right-main{
+        padding-bottom:8%;
+    }
+    .right-main a{
+        font-size:18px;
+    }
+    .item-right-main{
+        padding:1%;
+       box-shadow: 5px solid thistle;
+       text-align: center;
+       justify-content: center;
+       justify-items: center;
+       box-shadow: 2px 2px  #fcfbfb;
+       display:block;
+       padding-bottom:0%;
+
+    }
+    .item-right-main a{
+        font-size:18px;
+        font-weight: 600;
+    }
+    .item-right-main h5{
+        font-size:18px;
+        font-weight: bold;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        line-height: 200%;
+
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:40px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 20px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+        font-size:150%;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        line-height: 150%;
+        font-size:20px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+}
