@@ -11,7 +11,7 @@
         display:fixed !important;
     }
     header nav ul{
-        font-size:25px;
+        font-size:22px;
         background-color: #fff;
         margin:0.5%;
         border-bottom: none !important;
@@ -23,9 +23,6 @@
         font-size:30px;
         border:none !important;
 
-    }
-    .nav li a{
-        padding-bottom:0 !important;
     }
     header nav ul li{
         padding:0.5%;
@@ -133,7 +130,7 @@
         font-weight: bold;
     }
     .ser-inf-01 p{
-        font-size:20px;
+        font-size:18px;
         line-height: 150%;
     }
 
@@ -175,24 +172,26 @@
         color:orange;
     }
     .ft-01-left p{
-        font-size: 15px;
+        font-size: 20px;
+        padding-top:4% !important;
     }
     .ft-01-right h4{
         font-weight: bold;
         font-size:150%;
     }
-    .ft-menu ul{
+    .ft-menu{
         padding: 0 !important;
         text-decoration: none !important;
-    }
-    .ft-menu ul li{
-        line-height: 150%;
-        font-size:18px;
-        text-decoration: none !important;
+        list-style-type: none !important;
 
     }
-    .ft-menu ul li a{
-        text-decoration: none !important;
+    .ft-menu li{
+        line-height: 150%;
+        font-size:20px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
         color:whitesmoke;
     }
 
