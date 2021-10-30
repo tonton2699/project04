@@ -9,6 +9,7 @@
 @media only screen and (min-width:992px){
     header{
         background-color: black;
+        color:white;
     }
     header nav{
         display:fixed !important;
