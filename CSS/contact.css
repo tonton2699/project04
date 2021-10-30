@@ -1,0 +1,182 @@
+[class*="col-"]{
+    width: 100%;
+    padding: 0;
+}body{
+    padding: 0;
+    margin:0;
+    font-family: 'Oswald', sans-serif !important;
+}
+@media only screen and (min-width:992px){
+    header{
+        background-color: black !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:25px;
+        background-color: black !important;
+        margin:2%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:35px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    .banner{
+        background: url(../IMG/banner1.jpg) no-repeat center;
+        color:white;
+        position:relative;
+        padding:8%;
+        align-items: center;
+        display:flex;
+        font-family: 'Oswald', sans-serif;
+    }
+    .banner h3{
+        font-size:50px;
+        line-height: 65px;
+        font-weight: 300px;
+    }
+    .banner p{
+        line-height: 1.6;
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+    .btn-style-white:first-of-type{
+        background-color:#ffffff;
+        border:none !important;
+        color:black;
+        padding: 2% 2%;
+        font-weight: 900;
+    }
+    .btn-style-white{
+        border: 1px solid black !important;
+        color:black;
+        padding: 2% 2% !important;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+    .mr-2{
+        margin-right: 1%;
+    }
+    .btn-style-border{
+        background:transparent;
+        color:#fff;
+    }
+    .banner a{
+        font-size:2rem;
+        font-weight: 200;
+    }
+    .title-contact{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .title-contact h3{
+        font-size:300%;
+        font-weight: 600;
+        font-weight: bold;
+    }
+    .title-contact p{
+        font-size:150%;
+    }
+    .inf-contact{
+        padding-top:4%;
+        padding-bottom:4%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .infcontact{
+        background-color: whitesmoke;
+        font-size:15px;
+        padding:1%;
+    }
+    .infcontact h2{
+        color:#f85a40;
+    }
+    .infcontact p{
+        font-size:18px;
+    }
+    .inf-customer{
+        padding-bottom:5% !important;
+    }
+    .form-input{
+        padding:1%;
+    }
+    .form-input > label{
+        font-size:20px;
+    }
+    .form-input > input{
+        width: 100%;
+        font-size:20px;
+        height: 50px;
+    }
+    .btn-customer{
+        left:43%;
+        width: 15% !important;
+        text-align:center;
+        justify-content: center;
+        font-size: 25px;
+        height: 40px;
+    }
+    .map-us{
+        padding-bottom:5%;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        line-height: 200%;
+
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:40px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 20px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+        font-size:150%;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        line-height: 150%;
+        font-size:20px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+}
