@@ -7,32 +7,38 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    header{
+        background-color: black;
+    }
     header nav{
         display:fixed !important;
     }
     header nav ul{
-        font-size:22px;
-        background-color: #fff;
-        margin:0.5%;
+        font-size:25px;
+        background-color: black;
+        margin:2%;
         border-bottom: none !important;
         font-weight: 600;
         
     }
     header nav ul li:first-of-type{
         font-weight: bold;
-        font-size:30px;
+        font-size:35px;
         border:none !important;
 
     }
     header nav ul li{
         padding:0.5%;
         cursor: pointer;
+        color:white
     }
     header nav ul li a{
-        color:black !important;
+        color:white !important;
 
     }
-
+    .logo a{
+        color: orange !important;
+    }
     .banner{
         background: url(../IMG/banner1.jpg) no-repeat center;
         color:white;
