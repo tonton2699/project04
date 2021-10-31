@@ -7,8 +7,16 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
-    header{
+    .navbar-expand-lg{
         background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
     }
     header nav{
         display:fixed !important;
@@ -39,11 +47,10 @@
     .logo a{
         color: orange !important;
     }
-    .banner{
+    .banner .container{
         background: url(../IMG/banner1.jpg) no-repeat center;
         color:white;
-        position:relative;
-        padding:12%;
+        padding:9%;
         align-items: center;
         display:flex;
         font-family: 'Oswald', sans-serif;
@@ -83,14 +90,19 @@
         font-size:2rem;
         font-weight: 200;
     }
+    .inf-left,.inf-right{
+        padding-left:0 !important;
+        padding-right:0!important;
+    }
     .inf-us{
         padding-top:4%;
         background-color:white;
         padding-bottom:4%;
     }
     .abt-us{
-        margin:1%;
+        padding-left:4% !important;
         padding-bottom:3%;
+        padding-right:0!important;
     }
     .abt-us h3{
         font-size: 250%;
@@ -101,6 +113,9 @@
         font-size:20px;
         line-height:26px;
         font-weight: 600;
+    }
+    .sub-us{
+        padding-left:4% !important;
     }
     .sub-us h3{
         font-weight: bold;
@@ -113,10 +128,28 @@
     .services{
         background-color:#F6F6F6;
     }
+    .services .container{
+        padding-left:0 !important;
+        padding-right:0!important;
+    }
     .services-inf{
         padding:0 !important;
     }
+   /*
+   .services-inf div:nth-child(1){
+        padding-left:0 !important;
+    }
+    .services-inf div:nth-child(3){
+        padding-right:0 !important;
+    }
+    .services-inf div:nth-child(2){
+        padding-left:0 !important;
+        padding-right:0 !important;
+        }
+   */
     .text-services{
+        padding-left:0 !important;
+        padding-right:0 !important;
         text-align: center;
         line-height: 3;
         

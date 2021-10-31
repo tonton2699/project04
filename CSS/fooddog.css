@@ -7,8 +7,16 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
-    header{
-        background-color:black;
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
     }
     header nav{
         display:fixed !important;
@@ -40,8 +48,8 @@
     .logo a{
         color:orange !important;
     }
-    .nav-bar-search{
-        background-color:#43c0e4;
+    .nav-bar-search .container{
+        background-color:black;
         text-align: center;
         justify-content: center;
         justify-items: center;
@@ -73,7 +81,9 @@
         text-align: center;
         justify-content: center;
         justify-items: center;
+        color:black;
     }
+    
     .nav-middle{
         padding:0.5%;
         padding-top:1%;
@@ -82,13 +92,13 @@
     .txt-search{
         width: 80%;
         border: none !important;
-        font-size:22px;
+        font-size:20px;
         padding-right: 0 !important;
         height: auto;
     }
     .btn-search{
         width: 19%;
-        font-size:22px;
+        font-size:20px;
         padding-left: 0 !important;
         border:none;
         background:#34b0dd !important;
@@ -113,6 +123,10 @@
     .nav-right h5{
         font-size:18px;
         color:white;
+    }
+    .link-tag{
+        color:black;
+        padding-left:0!important;
     }
     .left-main{
         padding-left: 0 !important;
@@ -144,19 +158,26 @@
        justify-content: center;
        justify-items: center;
        display:block;
+       padding-right:1% !important;
+       padding-left:1% !important;
        padding-bottom:5%;
-       padding-left: 0 !important;
-       padding-right: 0 !important;
-       margin-right: 0.5%;
 
     }
     .item-right-main a{
-        font-size:18px;
+        font-size:16px;
         font-weight: 600;
+        color:black
     }
     .item-right-main h5{
         font-size:18px;
         font-weight: bold;
+        color:red;
+    }
+    .item-right-main del{
+        color:black;
+    }
+    .item-right-main button{
+        font-size: 15px;
     }
     footer{
         background-color:black;

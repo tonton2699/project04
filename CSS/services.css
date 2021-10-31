@@ -1,0 +1,142 @@
+[class*="col-"]{
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}body{
+    padding: 0;
+    margin:0;
+    font-family: 'Oswald', sans-serif !important;
+}
+@media only screen and (min-width:992px){
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:25px;
+        background-color: black !important;
+        margin:2%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:35px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        line-height: 200%;
+
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:40px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 20px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+        font-size:150%;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        line-height: 150%;
+        font-size:20px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    .video-qc{
+        padding-top:4%;
+    }
+    .service-detail{
+        padding-top:4%;
+        padding-bottom:4%;
+    }
+    .service-detail{
+        padding-left:0 !important;
+        padding-top:0 !important;
+    }
+    .title-services{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom:3%
+    }
+    .title-services h2{
+        font-weight: 600;
+        font-weight: bold;
+    }
+    .title-services p{
+        font-size:18px;
+    }
+    .service-detail .row{
+        margin: 0 !important;
+    }
+    .service-detail .row:nth-child(2){
+        background-color:whitesmoke;
+    }
+    .service-detail-txt:nth-child(2){
+        padding-left: 5% !important;
+        line-height: 2;
+        font-size: 16px;
+    }
+    .service-detail-txt:nth-child(1){
+        padding-left: 5% !important;
+        line-height: 2;
+        font-size: 16px;
+    }
+    .service-detail-txt h3{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .service-detail-txt > input{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+    
