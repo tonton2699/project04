@@ -91,6 +91,9 @@
     .video-qc{
         padding-top:4%;
     }
+    .video-qc video{
+        height:400px;
+    }
     .service-detail{
         padding-top:4%;
         padding-bottom:4%;
@@ -138,5 +141,175 @@
         justify-content: center;
         justify-items: center;
     }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:20px;
+        background-color: black !important;
+        margin:2%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    .banner .container{
+        background: url(../IMG/banner2.jpg) no-repeat center;
+        color:white;
+        padding:6%;
+        align-items: center;
+        display:flex;
+        font-family: 'Oswald', sans-serif;
+    }
+    .banner h3{
+        font-size:30px;
+        line-height: 35px;
+        font-weight: 600px;
+    }
+    .banner p{
+        line-height: 1.6;
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+    .btn-style-white:first-of-type{
+        background-color:#ffffff;
+        border:none !important;
+        color:black;
+        padding: 1% 1%;
+        font-weight: 900;
+    }
+    .btn-style-white{
+        border: 1px solid black !important;
+        color:black;
+        padding: 1% 1% !important;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+    .mr-2{
+        margin-right: 1%;
+    }
+    .btn-style-border{
+        background:transparent;
+        color:#fff;
+    }
+    .banner a{
+        font-size:2rem;
+        font-weight: 200;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:25px;
+        color:orange;
+    }
+    .ft-01-left{
+        padding-left:0 !important;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        font-size:18px;
+        padding: 0.5% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    footer .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    footer .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .main-services{
+        padding-bottom: 4%;
+    }
+    .main-services .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .main-services col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .video-qc{
+        padding-top:5%;
+    }
+    .title-services h2{
+        font-size:25px;
+        text-align: center;
+    }
+    .title-services p{
+        font-size: 18px;
+        text-align: center;
+    }
+    .service-detail .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .service-detail-txt{
+        padding-left: 4% !important;
+        line-height: 25px;
+    }
+    .service-detail-txt h3{
+        font-size:150%;
+        text-align: center;
+    }
+    .service-detail-txt input{
+        position:relative;
+        left:35%;
+        padding-top:2% !important;
+    }
+
+
+
 }
     
