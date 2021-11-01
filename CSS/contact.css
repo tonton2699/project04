@@ -7,6 +7,18 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 48%;
+        float:left;
+    }
+    .col-lg-3{
+        width: 24%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -22,16 +34,16 @@
         display:fixed !important;
     }
     header nav ul{
-        font-size:25px;
+        font-size:20px;
         background-color: black !important;
-        margin:2%;
+        margin:1%;
         border-bottom: none !important;
         font-weight: 600;
         
     }
     header nav ul li:first-of-type{
         font-weight: bold;
-        font-size:35px;
+        font-size:25px;
         border:none !important;
 
     }
@@ -186,5 +198,611 @@
     }
     .ft-menu li a{
         color:whitesmoke;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 48%;
+        float:left;
+    }
+    .col-lg-3{
+        width: 24.99%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:18px;
+        background-color: black !important;
+        margin:1%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    .banner .container{
+        background: url(../IMG/banner2.jpg) no-repeat center;
+        color:white;
+        position:relative;
+        padding:9%;
+        align-items: center;
+        display:flex;
+        font-family: 'Oswald', sans-serif;
+    }
+    .banner h3{
+        font-size:30px;
+        font-weight: 300px;
+    }
+    .banner p{
+        line-height: 1.6;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    .btn-style-white:first-of-type{
+        background-color:#ffffff;
+        border:none !important;
+        color:black;
+        padding: 2% 2%;
+        font-weight: 900;
+    }
+    .btn-style-white{
+        border: 1px solid black !important;
+        color:black;
+        padding: 2% 2% !important;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+    .mr-2{
+        margin-right: 1%;
+    }
+    .btn-style-border{
+        background:transparent;
+        color:#fff;
+    }
+    .banner a{
+        font-size:2rem;
+        font-weight: 200;
+    }
+    .title-contact{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .title-contact h3{
+        font-size:200%;
+        font-weight: 600;
+        font-weight: bold;
+    }
+    .title-contact p{
+        font-size:100%;
+    }
+    .inf-contact{
+        padding-top:4%;
+        padding-bottom:4%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .infcontact{
+        background-color: whitesmoke;
+        font-size:13px;
+        padding:2%;
+    }
+    .infcontact h2{
+        color:#f85a40;
+    }
+    .infcontact h3{
+        font-size:18px
+    }
+    .infcontact p{
+        font-size:15px;
+    }
+    .inf-customer{
+        padding-bottom:5% !important;
+    }
+    .form-input{
+        padding:1%;
+    }
+    .form-input > label{
+        font-size:20px;
+    }
+    .form-input > input{
+        width: 100%;
+        font-size:20px;
+        height: 50px;
+    }
+    .btn-customer{
+        left:43%;
+        width: 15% !important;
+        text-align:center;
+        justify-content: center;
+        font-size: 25px;
+        height: 40px;
+    }
+    .map-us{
+        padding-bottom:5%;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        padding-left:1% !important;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:25px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+    }
+    .ft-01-right{
+        padding-left: 2% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        font-size:16px;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    footer .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    footer .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:426px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 48%;
+        float:left;
+    }
+    .col-lg-3{
+        width: 24.99%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:18px;
+        background-color: black !important;
+        margin:1%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    .banner .container{
+        background: url(../IMG/banner2.jpg) no-repeat center;
+        color:white;
+        position:relative;
+        padding:9%;
+        align-items: center;
+        display:flex;
+        font-family: 'Oswald', sans-serif;
+    }
+    .banner h3{
+        font-size:30px;
+        font-weight: 300px;
+    }
+    .banner p{
+        line-height: 1.6;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    .btn-style-white:first-of-type{
+        background-color:#ffffff;
+        border:none !important;
+        color:black;
+        padding: 2% 2%;
+        font-weight: 900;
+    }
+    .btn-style-white{
+        border: 1px solid black !important;
+        color:black;
+        padding: 2% 2% !important;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+    .mr-2{
+        margin-right: 1%;
+    }
+    .btn-style-border{
+        background:transparent;
+        color:#fff;
+    }
+    .banner a{
+        font-size:2rem;
+        font-weight: 200;
+    }
+    .title-contact{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .title-contact h3{
+        font-size:200%;
+        font-weight: 600;
+        font-weight: bold;
+    }
+    .title-contact p{
+        font-size:100%;
+    }
+    .inf-contact{
+        padding-top:4%;
+        padding-bottom:4%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .infcontact{
+        background-color: whitesmoke;
+        font-size:13px;
+        padding:2%;
+    }
+    .infcontact h2{
+        color:#f85a40;
+    }
+    .infcontact h3{
+        font-size:18px
+    }
+    .infcontact p{
+        font-size:15px;
+    }
+    .inf-customer{
+        padding-bottom:5% !important;
+    }
+    .form-input{
+        padding:1%;
+    }
+    .form-input > label{
+        font-size:20px;
+    }
+    .form-input > input{
+        width: 100%;
+        font-size:20px;
+        height: 50px;
+    }
+    .btn-customer{
+        left:43%;
+        width: 15% !important;
+        text-align:center;
+        justify-content: center;
+        font-size: 25px;
+        height: 40px;
+    }
+    .map-us{
+        padding-bottom:5%;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        padding-left:1% !important;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:25px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+    }
+    .ft-01-right{
+        padding-left: 2% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        font-size:16px;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    footer .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    footer .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+}
+@media only screen and (max-width:426px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-3{
+        width: 50%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:15px;
+        background-color: black !important;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:20px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    .banner .container{
+        background: url(../IMG/banner2.jpg) no-repeat center;
+        color:white;
+        position:relative;
+        padding:9%;
+        align-items: center;
+        display:flex;
+        font-family: 'Oswald', sans-serif;
+    }
+    .banner h3{
+        font-size:30px;
+        font-weight: 300px;
+    }
+    .banner p{
+        line-height: 1.6;
+        font-size: 2rem;
+        font-weight: 200;
+    }
+    .btn-style-white:first-of-type{
+        background-color:#ffffff;
+        border:none !important;
+        color:black;
+        padding: 2% 2%;
+        font-weight: 900;
+    }
+    .btn-style-white{
+        border: 1px solid black !important;
+        color:black;
+        padding: 2% 2% !important;
+        cursor: pointer;
+        font-weight: 900 !important;
+    }
+    .mr-2{
+        margin-right: 1%;
+    }
+    .btn-style-border{
+        background:transparent;
+        color:#fff;
+    }
+    .banner a{
+        font-size:2rem;
+        font-weight: 200;
+    }
+    .title-contact{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .title-contact h3{
+        font-size:200%;
+        font-weight: 600;
+        font-weight: bold;
+    }
+    .title-contact p{
+        font-size:100%;
+    }
+    .inf-contact{
+        padding-top:5%;
+        padding-bottom:5%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .infcontact{
+        background-color: whitesmoke;
+        font-size:13px;
+        padding:1%;
+        margin:4%
+    }
+    .infcontact h2{
+        color:#f85a40;
+    }
+    .infcontact h3{
+        font-size:18px
+    }
+    .infcontact p{
+        font-size:15px;
+    }
+    .inf-customer{
+        padding-bottom:5% !important;
+    }
+    .form-input{
+        padding:1%;
+    }
+    .form-input > label{
+        font-size:20px;
+    }
+    .form-input > input{
+        width: 100%;
+        font-size:20px;
+        height: 50px;
+    }
+    .btn-customer{
+        left:43%;
+        width: 15% !important;
+        text-align:center;
+        justify-content: center;
+        font-size: 25px;
+        height: 40px;
+    }
+    .map-us{
+        padding-bottom:5%;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        padding-left:1% !important;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:25px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+    }
+    .ft-01-right{
+        padding-left: 2% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        font-size:16px;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    footer .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    footer .col-lg-12{
+        width: 100%;
+        float:left;
     }
 }

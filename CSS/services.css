@@ -8,6 +8,14 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 50%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -288,8 +296,12 @@
         text-align: center;
     }
     .title-services p{
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
+        font-weight: 600;
+    }
+    .service-detail .row:nth-child(2){
+        background-color:whitesmoke;
     }
     .service-detail .col-lg-6{
         width: 50%;
@@ -311,5 +323,146 @@
 
 
 
+}
+@media only screen and (max-width:768px){
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:18px;
+        background-color: black !important;
+        margin:2%;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white
+    }
+    header nav ul li a{
+        color:white !important;
+
+    }
+    .logo a{
+        color: orange !important;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left{
+        padding-left:1% !important;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:25px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+    }
+    .ft-01-right{
+        padding-left: 2% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        font-size:16px;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+    footer .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    footer .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .main-services{
+        padding-bottom: 4%;
+    }
+    .main-services .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .main-services col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .video-qc{
+        padding-top:5%;
+    }
+    .title-services h2{
+        font-size:20px;
+        text-align: center;
+    }
+    .title-services p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .service-detail .row:nth-child(2){
+        background-color:whitesmoke;
+    }
+    .service-detail .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .service-detail-txt{
+        padding-left: 4% !important;
+    }
+    .service-detail-txt h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    .service-detail-txt span{
+        font-size:14px;
+    }
+    .service-detail-txt input{
+        position:relative;
+        padding-top:1% !important;
+        font-size:14px !important;
+        left:35%;
+    }
 }
     

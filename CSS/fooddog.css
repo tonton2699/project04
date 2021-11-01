@@ -7,6 +7,22 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    .col-lg-2{
+        width: 16%;
+        float:left;
+    }
+    .col-lg-4{
+        width: 34%;
+        float:left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 50%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -219,4 +235,457 @@
     .ft-menu li a{
         color:whitesmoke;
     }
+}
+@media only screen and (min-width:782px) and (max-width:992px)
+{   
+    .col-lg-2{
+        width: 16%;
+        float:left;
+    }
+    .col-lg-4{
+        width: 34%;
+        float:left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:18px;
+        background-color: black;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white;
+    }
+    header nav ul li a{
+        color:white !important;
+
+    
+    }
+    .logo a{
+        color:orange !important;
+    }
+    .nav-bar-search .container{
+        background-color:black;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .nav-left{
+        margin-bottom:1%;
+        margin-top:1%;
+    }
+    .nav-left button{
+        background:transparent !important;
+        margin:3%;
+        color:white;
+        border:none;
+        font-size:13px;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .dropdown-menu{
+
+        text-align: center;
+    }
+    .dropdown-item{
+        font-size:15px;
+        font-weight: 600;
+        display:flex;
+        padding:4%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        color:black;
+    }
+    
+    .nav-middle{
+        padding-left:2% !important;
+        padding-top:1%;
+        color:black;
+    }
+    .txt-search{
+        width: 80%;
+        border: none !important;
+        font-size:15px;
+        padding-right: 0 !important;
+        height: auto;
+    }
+    .btn-search{
+        width: 19%;
+        font-size:15px;
+        padding-left: 0 !important;
+        border:none;
+        background:#34b0dd !important;
+        color:white;
+    }
+    .down-middle{
+        width: 100%;
+        font-size:13px;
+        text-align: start !important;
+        padding-left:3% !important;
+        list-style-type: none;
+    }
+    .down-middle a{
+        color:white !important;
+    }
+    .nav-right{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .nav-right h5{
+        font-size:13px;
+        color:white;
+    }
+    .link-tag{
+        color:black;
+        padding-left:0!important;
+        font-size:13px;
+    }
+    .left-main{
+        padding-left: 0 !important;
+        padding-right:0 !important;
+        border-right: 1px solid #999999;
+    }
+    .left-main h3{
+        background-color:#34b0dd;
+        color:white;
+        padding:4%;
+        font-size: 18px;
+    }
+    .left-main .col-lg-12{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+    .form-check{
+        font-size:12px;
+    }
+    .right-main{
+        padding-bottom:8%;
+        padding-right:0 !important;
+    }
+    .right-main a{
+        font-size:12px;
+    }
+    .item-right-main{
+       text-align: center;
+       justify-content: center;
+       justify-items: center;
+       display:block;
+       padding-right:1% !important;
+       padding-left:1% !important;
+       padding-bottom:5%;
+
+    }
+    .item-right-main a{
+        font-size:13px;
+        font-weight: 600;
+        color:black
+    }
+    .item-right-main h5{
+        font-size:13px;
+        font-weight: bold;
+        color:red;
+    }
+    .item-right-main del{
+        color:black;
+    }
+    .item-right-main button{
+        font-size: 13px !important;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:20px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        line-height: 150%;
+        font-size:15px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+
+}
+@media only screen and (max-width:782px){
+    .col-lg-2{
+        width: 20%;
+        float:left;
+    }
+    .col-lg-10{
+        width: 80%;
+        float:left;
+    }
+    .col-lg-4{
+        width: 25%;
+        float:left;
+    }
+    .col-lg-12{
+        width: 100%;
+        float:left;
+    }
+    .col-lg-6{
+        width: 50%;
+        float:left;
+    }
+    .navbar-expand-lg{
+        background-color: black !important;
+        margin-bottom:0 !important;
+    }
+    .navbar{
+        border-radius: 0 !important;
+    }
+    header .container{
+        padding-right:0 !important;
+        padding-left:0 !important;
+    }
+    header nav{
+        display:fixed !important;
+    }
+    header nav ul{
+        font-size:18px;
+        background-color: black;
+        border-bottom: none !important;
+        font-weight: 600;
+        
+    }
+    header nav ul li:first-of-type{
+        font-weight: bold;
+        font-size:25px;
+        border:none !important;
+
+    }
+    header nav ul li{
+        padding:0.5%;
+        cursor: pointer;
+        color:white;
+    }
+    header nav ul li a{
+        color:white !important;
+
+    
+    }
+    .logo a{
+        color:orange !important;
+    }
+    .nav-bar-search .container{
+        background-color:black;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .nav-left{
+        margin-bottom:1%;
+        margin-top:1%;
+    }
+    .nav-left button{
+        background:transparent !important;
+        margin:3%;
+        color:white;
+        border:none;
+        font-size:13px;
+        font-weight: 600;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .dropdown-menu{
+
+        text-align: center;
+    }
+    .dropdown-item{
+        font-size:15px;
+        font-weight: 600;
+        display:flex;
+        padding:4%;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        color:black;
+    }
+    
+    .nav-middle{
+        padding-left:2% !important;
+        padding-top:1%;
+        color:black;
+    }
+    .txt-search{
+        width: 80%;
+        border: none !important;
+        font-size:15px;
+        padding-right: 0 !important;
+        height: auto;
+    }
+    .btn-search{
+        width: 19%;
+        font-size:15px;
+        padding-left: 0 !important;
+        border:none;
+        background:#34b0dd !important;
+        color:white;
+    }
+    .down-middle{
+        width: 100%;
+        font-size:13px;
+        text-align: start !important;
+        padding-left:3% !important;
+        list-style-type: none;
+    }
+    .down-middle a{
+        color:white !important;
+    }
+    .nav-right{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .nav-right h5{
+        font-size:13px;
+        color:white;
+    }
+    .link-tag{
+        color:black;
+        padding-left:0!important;
+        font-size:13px;
+    }
+    .left-main{
+        padding-left: 0 !important;
+        padding-right:0 !important;
+        border-right: 1px solid #999999;
+    }
+    .left-main h3{
+        background-color:#34b0dd;
+        color:white;
+        padding:4%;
+        font-size: 18px;
+    }
+    .left-main .col-lg-12{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+    .form-check{
+        font-size:12px;
+    }
+    .right-main{
+        padding-bottom:8%;
+        padding-right:0 !important;
+    }
+    .right-main a{
+        font-size:12px;
+    }
+    .item-right-main{
+       text-align: center;
+       justify-content: center;
+       justify-items: center;
+       display:block;
+       padding-right:1% !important;
+       padding-left:1% !important;
+       padding-bottom:3%;
+
+    }
+    .item-right-main a{
+        font-size:13px;
+        font-weight: 600;
+        color:black
+    }
+    .item-right-main h5{
+        font-size:13px;
+        font-weight: bold;
+        color:red;
+    }
+    .item-right-main del{
+        color:black;
+    }
+    .item-right-main button{
+        font-size: 13px !important;
+    }
+    footer{
+        background-color:black;
+        color:white !important;
+        padding-top:3%;
+    }
+    .ft-01{
+        border-bottom: 1px solid snow ;
+    }
+    .ft-01-left a{
+        text-decoration: none !important;
+        font-size:20px;
+        color:orange;
+    }
+    .ft-01-left p{
+        font-size: 15px;
+        padding-top:4% !important;
+    }
+    .ft-01-right h4{
+        font-weight: bold;
+    }
+    .ft-menu{
+        padding: 0 !important;
+        text-decoration: none !important;
+        list-style-type: none !important;
+
+    }
+    .ft-menu li{
+        line-height: 150%;
+        font-size:15px;
+        padding: 1% !important;
+
+    }
+    .ft-menu li a{
+        color:whitesmoke;
+    }
+
 }

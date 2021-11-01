@@ -7,6 +7,22 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    .col-12{
+        width: 100%;
+        float:left;
+    }
+    .col-6{
+        width: 50%;
+        float:left;
+    }
+    .col-3{
+        width: 24%;
+        float:left;
+    }
+    .col-4{
+        width: 33.3%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -237,6 +253,22 @@
 
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+    .col-12{
+        width: 100%;
+        float:left;
+    }
+    .col-6{
+        width: 50%;
+        float:left;
+    }
+    .col-3{
+        width: 24%;
+        float:left;
+    }
+    .col-4{
+        width: 33.3% !important;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -320,7 +352,7 @@
         font-size:2rem;
         font-weight: 200;
     }
-    .inf-us .col-lg-6{
+    .inf-us .col-6{
         width: 50%;
         float:left;
     }
@@ -397,10 +429,6 @@
     .ser-inf-01 p{
         font-size:16px;
         line-height: 20px;
-    }
-    .services-inf .col-lg-4{
-        width: 100%;
-        
     }
     .ser-inf-01{
         width: 80%;
@@ -491,17 +519,17 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
+    footer .col-6{
         width: 50%;
         float:left;
     }
-    footer .col-lg-12{
+    footer .col-12{
         width: 100%;
         float:left;
     }
 }
 @media only screen and (max-width:768px){
-    .navbar-expand-lg{
+    .navbar-expand{
         background-color: black !important;
         margin-bottom:0 !important;
     }
@@ -582,10 +610,6 @@
     .banner a{
         font-size:1.5rem;
         font-weight: 200;
-    }
-    .inf-us .col-lg-6{
-        width: 100%;
-        float:left;
     }
     .inf-left,.inf-right{
         padding-left:0 !important;
@@ -672,7 +696,7 @@
         font-size:16px;
         line-height: 20px;
     }
-    .services-inf .col-lg-4{
+    .services-inf .col-4{
         width: 100%;
         
     }
@@ -764,12 +788,12 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
+    footer .col-6{
         width: 50%;
         float:left;
         padding-left:0;
     }
-    footer .col-lg-12{
+    footer .col-12{
         width: 100%;
         float:left;
     }

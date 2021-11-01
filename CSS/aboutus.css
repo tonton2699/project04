@@ -7,6 +7,22 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
+    .col-12{
+        width: 100%;
+        float:left;
+    }
+    .col-6{
+        width: 50%;
+        float:left;
+    }
+    .col-3{
+        width: 24%;
+        float:left;
+    }
+    .col-4{
+        width: 33.3%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -132,6 +148,7 @@
         font-size:18px;
     }
     .member-us{
+        padding:4%;
         justify-items: center;
         justify-content: center;
         text-align: center;
@@ -194,6 +211,22 @@
     }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+    .col-12{
+        width: 100%;
+        float:left;
+    }
+    .col-6{
+        width: 50%;
+        float:left;
+    }
+    .col-3{
+        width: 24%;
+        float:left;
+    }
+    .col-4{
+        width: 33.3%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -312,20 +345,8 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
-        width: 50%;
-        float:left;
-    }
-    footer .col-lg-12{
-        width: 100%;
-        float:left;
-    }
     .few-word-about-us{
         padding-top:3%;
-    }
-    .few-word-about-us .col-lg-6{
-        width: 50%;
-        float:left;
     }
     .few-word-about-us h2{
         font-size: 25px;
@@ -337,10 +358,6 @@
     .membership{
         padding-bottom:4%;
     }
-    .membership .col-lg-12{
-        width: 100%;
-        float:left;
-    }
     .membership .title-member h1{
         text-align: center;
         font-size:25px;
@@ -350,12 +367,9 @@
         font-size:18px;
         text-align: center;
     }
-    .membership .col-lg-3{
-        width: 25%;
-        float:left;
-    }
     .member-us{
         text-align: center;
+        padding:3%;
     }
     .member-us h2{
         font-size:20px;
@@ -374,6 +388,22 @@
     }
 }
 @media only screen and (max-width:768px){
+    .col-12{
+        width: 100%;
+        float:left;
+    }
+    .col-6{
+        width: 50%;
+        float:left;
+    }
+    .col-3{
+        width: 24%;
+        float:left;
+    }
+    .col-4{
+        width: 33.3%;
+        float:left;
+    }
     .navbar-expand-lg{
         background-color: black !important;
         margin-bottom:0 !important;
@@ -468,7 +498,7 @@
         color:orange;
     }
     .ft-01-left{
-        padding-left:0 !important;
+        padding-left: 2% !important;
     }
     .ft-01-left p{
         font-size: 15px;
@@ -492,21 +522,9 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
-        width: 50%;
-        float:left;
-    }
-    footer .col-lg-12{
-        width: 100%;
-        float:left;
-    }
 
     .few-word-about-us{
         padding-top:3%;
-    }
-    .few-word-about-us .col-lg-6{
-        width: 50%;
-        float:left;
     }
     .few-word-about-us h2{
         font-size: 25px;
@@ -518,10 +536,6 @@
     .membership{
         padding-bottom:4%;
     }
-    .membership .col-lg-12{
-        width: 100%;
-        float:left;
-    }
     .membership .title-member h1{
         text-align: center;
         font-size:25px;
@@ -531,12 +545,9 @@
         font-size:18px;
         text-align: center;
     }
-    .membership .col-lg-3{
-        width: 25%;
-        float:left;
-    }
     .member-us{
         text-align: center;
+        padding:4%;
     }
     .member-us h2{
         font-size:20px;
@@ -549,6 +560,9 @@
         padding-left:6%;
         color:black;
         font-size:15px
+    }
+    .left-word{
+        padding-left:2%
     }
     .left-word h2{
         margin-top:0 !important;
