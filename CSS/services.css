@@ -8,11 +8,11 @@
     font-family: 'Oswald', sans-serif !important;
 }
 @media only screen and (min-width:992px){
-    .col-lg-12{
+    .col-12{
         width: 100%;
         float:left;
     }
-    .col-lg-6{
+    .col-6{
         width: 50%;
         float:left;
     }
@@ -151,7 +151,7 @@
     }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
-    .navbar-expand-lg{
+    .navbar-expand{
         background-color: black !important;
         margin-bottom:0 !important;
     }
@@ -269,22 +269,22 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
+    footer .col-6{
         width: 50%;
         float:left;
     }
-    footer .col-lg-12{
+    footer .col-12{
         width: 100%;
         float:left;
     }
     .main-services{
         padding-bottom: 4%;
     }
-    .main-services .col-lg-12{
+    .main-services .col-12{
         width: 100%;
         float:left;
     }
-    .main-services col-lg-6{
+    .main-services col-6{
         width: 50%;
         float:left;
     }
@@ -303,7 +303,7 @@
     .service-detail .row:nth-child(2){
         background-color:whitesmoke;
     }
-    .service-detail .col-lg-6{
+    .service-detail .col-6{
         width: 50%;
         float:left;
     }
@@ -325,15 +325,15 @@
 
 }
 @media only screen and (max-width:768px){
-    .col-lg-12{
+    .col-12{
         width: 100%;
         float:left;
     }
-    .col-lg-6{
+    .col-6{
         width: 50%;
         float:left;
     }
-    .navbar-expand-lg{
+    .navbar-expand{
         background-color: black !important;
         margin-bottom:0 !important;
     }
@@ -411,22 +411,22 @@
     .ft-menu li a{
         color:whitesmoke;
     }
-    footer .col-lg-6{
+    footer .col-6{
         width: 50%;
         float:left;
     }
-    footer .col-lg-12{
+    footer .col-12{
         width: 100%;
         float:left;
     }
     .main-services{
         padding-bottom: 4%;
     }
-    .main-services .col-lg-12{
+    .main-services .col-12{
         width: 100%;
         float:left;
     }
-    .main-services col-lg-6{
+    .main-services col-6{
         width: 50%;
         float:left;
     }
@@ -444,7 +444,7 @@
     .service-detail .row:nth-child(2){
         background-color:whitesmoke;
     }
-    .service-detail .col-lg-6{
+    .service-detail .col-6{
         width: 50%;
         float:left;
     }

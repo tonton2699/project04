@@ -34,16 +34,16 @@
         display:fixed !important;
     }
     header nav ul{
-        font-size:20px;
+        font-size:25px;
         background-color: black !important;
-        margin:1%;
+        margin:2%;
         border-bottom: none !important;
         font-weight: 600;
         
     }
     header nav ul li:first-of-type{
         font-weight: bold;
-        font-size:25px;
+        font-size:35px;
         border:none !important;
 
     }
@@ -62,7 +62,6 @@
     .banner .container{
         background: url(../IMG/banner1.jpg) no-repeat center;
         color:white;
-        position:relative;
         padding:9%;
         align-items: center;
         display:flex;
